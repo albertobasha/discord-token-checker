@@ -17,8 +17,8 @@ And also saves usernames of each tokens on a `usernames.txt` read more below.
 
 
 # Additional functionality
-Script will fetch the username associated with the token.
-This script uses the `colorama` library to print the output in different colors, and the `os` library to clear the console.
+- Script will fetch the username associated with the token.
+- This script uses the `colorama` library to print the output in different colors, and the `os` library to clear the console.
 
 # Known Issues
 - This script is platform dependent and may not work as expected on non-Windows systems.
