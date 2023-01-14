@@ -4,7 +4,7 @@ And also saves usernames of each tokens on a `usernames.txt` read more below.
 
 # Usage
 1. Create a file called `tokens.txt` in the same directory as the script.
-2. Add your tokens to the `tokens.txt` file, with each token on a new line.
+2. Add your tokens to the `tokens.txt` file, with each token on a new line with the format `email:password:token` or just `token`.
 3. Run the script by executing `python <scriptname.py>` in your command line.
 4. The script will check each token and print whether it is valid, verified, or invalid.
 5. The script will ask if you want to save the valid and invalid tokens to separate files, `valid_tokens.txt` and `dead_tokens.txt`, respectively. If the token is verified then it will save in `verified_tokens.txt`.
